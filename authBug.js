@@ -1,0 +1,1 @@
+The Firebase SDK's `onAuthStateChanged` listener might not trigger if the user's authentication state changes due to a background process, such as token refresh or silent sign-in.  This can lead to unexpected behavior where UI elements don't update correctly or data isn't fetched.
